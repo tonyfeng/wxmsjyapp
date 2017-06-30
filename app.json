@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/info/info",
+    "pages/story/story",
+    "pages/show/info/info",
+    "pages/show/story/story"
+  ],
+  "tabBar": {
+    "color": "#ffffff",
+    "selectedColor": "#f6ef37",
+    "borderStyle": "white",
+    "backgroundColor": "#f35b8f",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/story/story",
+        "iconPath": "images/sound.png",
+        "selectedIconPath": "images/sound1.png",
+        "text": "绘本故事"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "iconPath": "images/info.png",
+        "selectedIconPath": "images/info1.png",
+        "text": "蒙氏教育"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f35b8f",
+    "navigationBarTitleText": "蒙台梭利幼教",
+    "navigationBarTextStyle": "white"
+  },
+  "networkTimeout": {
+    "request": 60000,
+    "uploadFile": 6000
+  }
+}

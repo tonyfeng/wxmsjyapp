@@ -1,0 +1,5 @@
+/* info.wxss */
+.title{font-size:16px;font-weight:bold;color:#3d464d;border-bottom: 1px solid #f2f2f2;line-height: 30px;vertical-align: middle;padding-top:5px;padding-bottom: 5px;}
+.text{margin-top:20px;color:#3d464d;line-height: 20px;}
+.text .img{text-align: center;}
+.text .p{margin-top:10px;}

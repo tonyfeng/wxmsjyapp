@@ -1,0 +1,18 @@
+<!--info.wxml-->
+<view class="container">
+  
+  <scroll-view scroll-y="true" style="height: 500px;" upper-threshold="10" lower-threshold="10" scroll-with-animation="true" bindscrolltoupper="onReachBottom" bindscrolltolower="onPullDownRefresh" data-id="{{lastId}}">
+    <view class="info-lists">
+    
+      <view class="box" bindtap="infoBindViewTap" wx:for="{{datalists}}" data-id="{{item.id}}">
+        <view class="img">
+          <image src="{{item.PicUrl}}" class="audio"></image>
+        </view>
+        <view class="text">
+            <text>{{item.Title}}</text>
+        </view>
+      </view>  
+      
+    </view>
+  </scroll-view>
+</view>

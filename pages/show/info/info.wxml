@@ -1,0 +1,14 @@
+<!--info.wxml-->
+<import src="../../../utils/wxParse/wxParse.wxml"/>
+<view class="container">
+  
+  <view class="title">
+   <text>{{datainfo.Title}}</text>
+  </view>
+   
+  <view class="text">      
+      <template is="wxParse" data="{{wxParseData:content.nodes}}"/>
+  </view>
+    
+  
+</view>

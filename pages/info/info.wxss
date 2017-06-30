@@ -1,0 +1,7 @@
+/* info.wxss */
+.info-lists{margin-top:15px;}
+.info-lists .box{height:90px;margin-bottom: 10px;border-bottom: 1px solid #f2f2f2;clear:both;}
+.info-lists .text{width:72%;float:left;padding-left:6px;vertical-align: middle;padding-top:10px;line-height: 25px;}
+.info-lists .img{width:22%;float:left;}
+.info-lists .des{margin-top:5px;color:#828a92;line-height:20px;}
+.info-lists .img .payico{width:35px;height:35px;position: relative;top:-55px;left:30px;}

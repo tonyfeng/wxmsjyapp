@@ -1,0 +1,13 @@
+/**index.wxss**/
+.topimg{width:100%;}
+.atitle{text-align:center;color:#3d464d;height:25px;line-height:25px;vertical-align: middle;}
+.story-title{padding-left:2px;margin-top:10px;width:100%;border-bottom:3px solid #f2f2f2;height:30px;line-height: 30px;vertical-align: middle;color:#f35b8f;font-weight: bold;}
+.storyico{width:20px;height:20px;background: url("/images/soundico.png");}
+
+.story-lists{margin-top:15px;}
+.story-lists .box{height:90px;margin-bottom: 10px;border-bottom: 1px solid #f2f2f2;clear:both;}
+.story-lists .text{width:75%;float:left;}
+.story-lists .img{width:25%;float:left;}
+.story-lists .des{margin-top:5px;color:#828a92;line-height:20px;overflow:hidden;height:40px;}
+.story-lists .img .payico{width:35px;height:35px;position: relative;top:-55px;left:30px;}
+

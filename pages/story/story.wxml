@@ -1,0 +1,21 @@
+<!--story.wxml-->
+<view class="container">
+
+  <view class="story-lists">
+  
+    <view class="box" bindtap="storyBindViewTap" wx:for="{{datalists}}" data-id="{{item.id}}">
+      <view class="text">
+          <text>{{item.Title}}</text>
+          <view class="des">
+            <text>{{item.Description}}</text>
+          </view>
+        </view>
+        <view class="img">
+          <image src="{{item.PicUrl}}" class="audio"></image>
+          <image src="/images/pay.png" class="payico"></image>
+        </view>
+    </view>  
+
+    
+  </view>
+</view>

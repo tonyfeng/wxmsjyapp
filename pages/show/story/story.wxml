@@ -1,0 +1,24 @@
+<!--story.wxml-->
+<!--info.wxml-->
+<import src="../../../utils/wxParse/wxParse.wxml"/>
+
+<view class="container">
+  
+  <view class="title">
+    <text>{{title}}</text>
+  </view>
+
+  <view class="text">
+    <view class="circle" id="rotate" animation="{{animation}}" mode="scaleToFill" style="background:#ffffff url('{{pic}}') no-repeat; ">
+      <view class="circle_smart"></view>
+    </view>
+    <view class="ctr" bindtap="ctr_audio">
+      <image src="{{ctrimg}}" class="ctrimg" ></image>
+    </view>
+  </view>
+
+  <view class="content">
+  <template is="wxParse" data="{{wxParseData:content.nodes}}"/>
+  </view>
+  
+</view>
